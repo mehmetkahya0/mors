@@ -42,6 +42,13 @@ def decode(text):
     return decoded_text
 
 def main():
+
+    print(Fore.GREEN + """
+              _ __ ___   ___  _ __ ___ 
+             | '_ ` _ \\ / _ \\| '__/ __|
+             | | | | | | (_) | |  \\__ \\
+             |_| |_| |_|\\___/|_|  |___/ @mehmetkahya0
+    """ + Style.RESET_ALL)
     # Using method: python3 main.py -i 'STRING' -o 'output.txt' -m 'encode'
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input", help="Input text")
