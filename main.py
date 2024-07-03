@@ -1,4 +1,8 @@
-# python morse.py -i "input.txt" -o "output.txt" -m "encode"
+# Mehmet Kahya @mehmetkahya0
+# Morse Code Encoder/Decoder
+# Usage: python3 main.py -i 'STRING' -o 'output.txt' -m 'encode'
+# 4 July 2024
+
 
 import argparse
 import sys
